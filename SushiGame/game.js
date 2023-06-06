@@ -25,13 +25,13 @@ class Shop extends Phaser.Scene {
         .setScale(0.2)
         .setInteractive()
         .on('pointerdown', () => {
-            this.makeSushi('rice')
+            this.cutSushi(this.rice)
         });
         this.seaweed = this.add.image(1200, 300, 'seaweed')
         .setScale(0.2)
         .setInteractive()
         .on('pointerdown', () => {
-            this.makeSushi(this.seaweed)
+            this.cutSushi(this.seaweed)
         });
         this.sushi = []
         this.ingredients = [this.fish, this.rice, this.seaweed]
