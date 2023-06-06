@@ -4,7 +4,7 @@ class Shop extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('fish', "LionsAteMySanity.github.io/SushiGame/assets/fish.png")
+        this.load.image('fish', "../assets/fish.png")
         this.load.image('rice', "../assets/rice.png")
         this.load.image('seaweed', "../assets/seaweed.png")
         this.load.image('fishicon', "../assets/fish.png")
